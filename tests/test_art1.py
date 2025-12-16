@@ -5,8 +5,9 @@ ART-1 網路單元測試
 import sys
 import os
 
-# Add parent directory to path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# 添加專案根目錄到 Python 路徑
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, project_root)
 
 import numpy as np
 from src.art1 import ART1Network
