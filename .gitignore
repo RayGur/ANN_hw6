@@ -41,11 +41,11 @@ venv.bak/
 *.ipynb
 
 # Results and outputs
-output/*.log
-output/*.txt
-output/*.csv
-output/*.json
-output/*.png
+results/figures/*
+results/logs/*
+results/*.csv
+results/*.json
+results/*.png
 *.png
 
 
